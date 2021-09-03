@@ -16,8 +16,18 @@ class Websock:
     def __init__(self, src_ip, gateway, port: int):
         self.ip = src_ip
 ```
-and in when he's calling the class "WebSock" with the parameter known as "gateway", he has a invalid DNS, as proven in the screenshot below.
+and in when he's calling the class "WebSock" with the parameter known as "gateway", he tries to connect to "dga.gateway.discord.gg", which checked is a invalid DNS, as proven in the screenshot below.
 ```python
 websocket = Websock("127.0.0.1","dga.gateway.discord.gg",512)
 ``` 
-![invalid-dns](https://user-images.githubusercontent.com/74681745/132074577-52f89206-2414-43fe-9e55-d5bf08d2ac3a.png)
+![invalid-dns](https://user-images.githubusercontent.com/74681745/132074577-52f89206-2414-43fe-9e55-d5bf08d2ac3a.png) <br>
+
+now, looking into his [windows defender bypass](https://github.com/0x44F/Windows-defender-bypass), on his "exploit.py" file he for some odd reason uses system calls to run gcc but doesn't even close the os.system() and why would you need a python script to do some easy task? 
+![image](https://user-images.githubusercontent.com/74681745/132074999-3469724b-5c05-432d-8248-1cd1fbab34e9.png)
+and on his "test.asm" file, it seems to be stolen as the comments are the exact same placement and word for word.
+![image](https://user-images.githubusercontent.com/74681745/132075141-e54b260a-2280-4a4a-877e-d0f16f9d2263.png) <br>
+
+now on the HellSec's version of the "exploit":<br>
+i love hellsec, he's a chill guy, but i cannot be biased, so I contacted a friend of mine, [protocol](https://github.com/unenjoyable/discord-server-outage-exploit), he was the one who founded the 2021 discord outage exploit, he states that never has the /science endpoint exposing another persons authenication token, so yeah, think what you want of it. <br>
+
+thanks to [protocol](https://github.com/unenjoyable/) & [relative](https://github.com/relative/) for the help with this. <br>
