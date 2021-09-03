@@ -23,7 +23,7 @@ websocket = Websock("127.0.0.1","dga.gateway.discord.gg",512)
 ![invalid-dns](https://user-images.githubusercontent.com/74681745/132074577-52f89206-2414-43fe-9e55-d5bf08d2ac3a.png) <br>
 
 now, looking into his [windows defender bypass](https://github.com/0x44F/Windows-defender-bypass), on his "exploit.py" file he for some odd reason uses system calls to run gcc but doesn't even close the os.system() and why would you need a python script to do some easy task? 
-![image](https://user-images.githubusercontent.com/74681745/132074999-3469724b-5c05-432d-8248-1cd1fbab34e9.png)
+![image](https://user-images.githubusercontent.com/74681745/132074999-3469724b-5c05-432d-8248-1cd1fbab34e9.png) <br>
 and on his "test.asm" file, it seems to be stolen as the comments are the exact same placement and word for word.
 ![image](https://user-images.githubusercontent.com/74681745/132075141-e54b260a-2280-4a4a-877e-d0f16f9d2263.png) <br>
 
