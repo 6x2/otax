@@ -30,4 +30,4 @@ and on his "test.asm" file, it seems to be stolen as the comments are the exact 
 now on the HellSec's version of the "exploit":<br>
 i love hellsec, he's a chill guy, but i cannot be biased, so I contacted a friend of mine, [protocol](https://github.com/unenjoyable/discord-server-outage-exploit), he was the one who founded the 2021 discord outage exploit, he states that never has the /science endpoint exposing another persons authenication token, so yeah, think what you want of it. <br>
 
-thanks to [protocol](https://github.com/unenjoyable/) & [relative](https://github.com/relative/) for the help with this. <br>
+thanks to [protocol](https://github.com/unenjoyable/) for the help with this. <br>
